@@ -1,0 +1,309 @@
+2025-01-31 18:38:08 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: 
+2025-01-31 18:38:08 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body"],"msg":"Field required","input":null}]}
+Duration: 0.007s
+2025-01-31 18:54:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: 
+2025-01-31 18:54:41 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body"],"msg":"Field required","input":null}]}
+Duration: 0.006s
+2025-01-31 18:55:31 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: 
+2025-01-31 18:55:31 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body"],"msg":"Field required","input":null}]}
+Duration: 0.008s
+2025-01-31 18:56:06 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 18:56:06 | INFO | Processing prediction request with id: 1
+2025-01-31 18:56:06 | INFO | Successfully processed request 1
+2025-01-31 18:56:06 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":1,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.007s
+2025-01-31 18:56:43 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 2
+}
+2025-01-31 18:56:43 | INFO | Processing prediction request with id: 2
+2025-01-31 18:56:43 | INFO | Successfully processed request 2
+2025-01-31 18:56:43 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":2,"answer":1,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.003s
+2025-01-31 18:56:47 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 18:56:47 | INFO | Processing prediction request with id: 1
+2025-01-31 18:56:47 | INFO | Successfully processed request 1
+2025-01-31 18:56:47 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":1,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.004s
+2025-01-31 19:07:49 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:07:49 | INFO | Processing prediction request with id: 1
+2025-01-31 19:07:49 | INFO | Successfully processed request 1
+2025-01-31 19:07:49 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":1,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.006s
+2025-01-31 19:12:24 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:12:24 | INFO | Processing prediction request with id: 1
+2025-01-31 19:12:24 | INFO | Successfully processed request 1
+2025-01-31 19:12:24 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.011s
+2025-01-31 19:28:11 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:28:11 | INFO | Processing prediction request with id: 1
+2025-01-31 19:28:11 | INFO | Successfully processed request 1
+2025-01-31 19:28:11 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.010s
+2025-01-31 19:28:44 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:28:44 | INFO | Processing prediction request with id: 1
+2025-01-31 19:28:44 | ERROR | Validation error for request 1: 1 validation error for PredictionResponse
+answer
+  Input should be a valid integer [type=int_type, input_value=<coroutine object get_gpt...ponse at 0x7f8700f72340>, input_type=coroutine]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+2025-01-31 19:28:44 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 400
+Response body: {"detail":"1 validation error for PredictionResponse\nanswer\n  Input should be a valid integer [type=int_type, input_value=<coroutine object get_gpt...ponse at 0x7f8700f72340>, input_type=coroutine]\n    For further information visit https://errors.pydantic.dev/2.10/v/int_type"}
+Duration: 0.009s
+2025-01-31 19:37:26 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:37:26 | INFO | Processing prediction request with id: 1
+2025-01-31 19:37:27 | ERROR | Validation error for request 1: 1 validation error for PredictionResponse
+answer
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Сколько будет 2 + 2?', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_parsing
+2025-01-31 19:37:27 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 400
+Response body: {"detail":"1 validation error for PredictionResponse\nanswer\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Сколько будет 2 + 2?', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/int_parsing"}
+Duration: 0.589s
+2025-01-31 19:46:28 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:46:28 | INFO | Processing prediction request with id: 1
+2025-01-31 19:46:28 | ERROR | Internal error processing request 1: int() argument must be a string, a bytes-like object or a number, not 'coroutine'
+2025-01-31 19:46:28 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.015s
+2025-01-31 19:47:39 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:47:39 | INFO | Processing prediction request with id: 1
+2025-01-31 19:47:39 | ERROR | Internal error processing request 1: int() argument must be a string, a bytes-like object or a number, not 'coroutine'
+2025-01-31 19:47:39 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.008s
+2025-01-31 19:48:20 | INFO | Incoming request: GET http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E
+Request body: 
+2025-01-31 19:48:20 | INFO | Request completed: GET http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E
+Status: 405
+Response body: {"detail":"Method Not Allowed"}
+Duration: 0.004s
+2025-01-31 19:48:20 | INFO | Incoming request: GET http://localhost:8080/favicon.ico
+Request body: 
+2025-01-31 19:48:20 | INFO | Request completed: GET http://localhost:8080/favicon.ico
+Status: 404
+Response body: {"detail":"Not Found"}
+Duration: 0.002s
+2025-01-31 19:53:45 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:53:45 | INFO | Processing prediction request with id: 1
+2025-01-31 19:53:45 | ERROR | Internal error processing request 1: int() argument must be a string, a bytes-like object or a number, not 'coroutine'
+2025-01-31 19:53:45 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.009s
+2025-01-31 19:57:21 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:57:21 | INFO | Processing prediction request with id: 1
+2025-01-31 19:57:21 | ERROR | Internal error processing request 1: int() argument must be a string, a bytes-like object or a number, not 'coroutine'
+2025-01-31 19:57:21 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.008s
+2025-01-31 19:58:05 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 19:58:05 | INFO | Processing prediction request with id: 1
+2025-01-31 19:58:05 | ERROR | Internal error processing request 1: int() argument must be a string, a bytes-like object or a number, not 'coroutine'
+2025-01-31 19:58:05 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.013s
+2025-01-31 20:02:57 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 20:02:57 | INFO | Processing prediction request with id: 1
+2025-01-31 20:02:58 | INFO | Successfully processed request 1
+2025-01-31 20:02:58 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":17,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.619s
+2025-01-31 20:07:16 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 20:07:16 | INFO | Processing prediction request with id: 1
+2025-01-31 20:07:16 | INFO | Successfully processed request 1
+2025-01-31 20:07:16 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":16,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.541s
+2025-01-31 20:13:46 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 20:13:46 | INFO | Processing prediction request with id: 1
+2025-01-31 20:13:46 | ERROR | Internal error processing request 1: 'PredictionRequest' object has no attribute 'prompt'
+2025-01-31 20:13:46 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.009s
+2025-01-31 20:15:44 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 20:15:44 | INFO | Processing prediction request with id: 1
+2025-01-31 20:15:45 | ERROR | Validation error for request 1: No number found in the response text.
+2025-01-31 20:15:45 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 400
+Response body: {"detail":"No number found in the response text."}
+Duration: 0.626s
+2025-01-31 20:21:57 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 20:21:57 | INFO | Processing prediction request with id: 1
+2025-01-31 20:21:57 | INFO | Successfully processed request 1
+2025-01-31 20:21:57 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.574s
+2025-01-31 20:22:19 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+
+2025-01-31 20:22:19 | INFO | Processing prediction request with id: 2
+2025-01-31 20:22:20 | INFO | Successfully processed request 2
+2025-01-31 20:22:20 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":2,"answer":2,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.589s
+2025-01-31 20:22:29 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+2025-01-31 20:22:29 | INFO | Processing prediction request with id: 3
+2025-01-31 20:22:30 | INFO | Successfully processed request 3
+2025-01-31 20:22:30 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.380s
+2025-01-31 20:22:38 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "id": 3,
+  "answer": 3,
+  "reasoning": "В 2023 году Университет ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking). Это достижение подтверждается официальным сайтом рейтинга.",
+  "sources": ["https://news.itmo.ru/ru/university_live/ratings/news/10389/"]
+}
+
+2025-01-31 20:22:38 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 422
+Response body: {"detail":[{"type":"missing","loc":["body","query"],"msg":"Field required","input":{"id":3,"answer":3,"reasoning":"В 2023 году Университет ИТМО впервые вошёл в топ-400 мировых университетов согласно рейтингу ARWU (Shanghai Ranking). Это достижение подтверждается официальным сайтом рейтинга.","sources":["https://news.itmo.ru/ru/university_live/ratings/news/10389/"]}}]}
+Duration: 0.002s
+2025-01-31 20:22:57 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+
+2025-01-31 20:22:57 | INFO | Processing prediction request with id: 3
+2025-01-31 20:22:58 | INFO | Successfully processed request 3
+2025-01-31 20:22:58 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.509s
+2025-01-31 20:33:56 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+
+2025-01-31 20:33:56 | INFO | Processing prediction request with id: 3
+2025-01-31 20:33:57 | INFO | Successfully processed request 3
+2025-01-31 20:33:57 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге ARWU (Shanghai Ranking).","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.269s
+2025-01-31 20:34:04 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+
+
+2025-01-31 20:34:04 | INFO | Processing prediction request with id: 3
+2025-01-31 20:34:06 | INFO | Successfully processed request 3
+2025-01-31 20:34:06 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге ARWU (Shanghai Ranking).","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 1.250s

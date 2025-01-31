@@ -1,10 +1,12 @@
 import time
 from typing import List
+import httpx
 
 from fastapi import FastAPI, HTTPException, Request, Response
 from pydantic import HttpUrl
 from schemas.request import PredictionRequest, PredictionResponse
 from utils.logger import setup_logger
+import re
 
 # Initialize
 app = FastAPI()
@@ -15,6 +17,101 @@ logger = None
 async def startup_event():
     global logger
     logger = await setup_logger()
+
+
+# Функция для извлечения первого числа из строки
+def extract_first_number(text: str) -> int:
+    # Используем регулярное выражение для поиска чисел в строке
+    match = re.search(r'\d+', text)  # \d+ ищет одно или несколько цифр
+    if match:
+        return int(match.group())  # Возвращаем первое найденное число как целое
+    else:
+        return None
+
+api_key = 't1.9euelZqQysqZmZaZnJ6Uy82dy5fOl-3rnpWanJTGmp3Jzc-OmMyOypvMnYnl8_d7PAtD-e9LMnw6_t3z9ztrCEP570syfDr-zef1656VmsaYz5yZls6el43MyJyMyJmP7_zF656VmsaYz5yZls6el43MyJyMyJmP.AbQP6UTNyCUAsZZUGVb3TJqrqllUN-RFkzY2MRXRpDpojLSjxBxayOqnnXBA9TRe3MOerfIc4bDoNkUJAPEQCA'
+
+
+async def get_gpt_response(prompt: str) -> int:
+    url = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
+
+    # Формируем тело запроса
+    payload = {
+        "modelUri": f"gpt://b1ggutiddi1m04mbd5rm/yandexgpt-lite",  # Используем идентификатор каталога
+        "completionOptions": {
+            "stream": False,
+            "temperature": 0.6,
+            "maxTokens": "2000"
+        },
+        "messages": [
+            {
+                "role": "system",
+                "text": "Напиши ответ - одно конкретное число"
+            },
+            {
+                "role": "user",
+                "text": prompt
+            }
+        ]
+    }
+
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+
+    async with httpx.AsyncClient() as client:
+        # Отправляем POST-запрос
+        response = await client.post(url, json=payload, headers=headers)
+
+        # Проверяем статус ответа
+        if response.status_code == 200:
+            response_data = response.json()
+            # Извлекаем сгенерированный текст
+            answer_ = response_data.get("result", {}).get("alternatives", [{}])[0].get("message", {}).get("text", "Ответ не найден.")
+            return extract_first_number(answer_)
+        else:
+            return f"Ошибка запроса: {response.status_code}"
+
+
+async def get_gpt_full_response(prompt: str) -> str:
+    url = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
+
+    # Формируем тело запроса
+    payload = {
+        "modelUri": f"gpt://b1ggutiddi1m04mbd5rm/yandexgpt-lite",  # Используем идентификатор каталога
+        "completionOptions": {
+            "stream": False,
+            "temperature": 0.6,
+            "maxTokens": "2000"
+        },
+        "messages": [
+            {
+                "role": "system",
+                "text": "Дай мне ответ в 2 предложения текстом"
+            },
+            {
+                "role": "user",
+                "text": prompt
+            }
+        ]
+    }
+
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+
+    async with httpx.AsyncClient() as client:
+        # Отправляем POST-запрос
+        response = await client.post(url, json=payload, headers=headers)
+
+        # Проверяем статус ответа
+        if response.status_code == 200:
+            response_data = response.json()
+            # Извлекаем сгенерированный текст
+            return response_data.get("result", {}).get("alternatives", [{}])[0].get("message", {}).get("text", "Ответ не найден.")
+        else:
+            return f"Ошибка запроса: {response.status_code}"
 
 
 @app.middleware("http")
@@ -53,17 +150,21 @@ async def log_requests(request: Request, call_next):
 async def predict(body: PredictionRequest):
     try:
         await logger.info(f"Processing prediction request with id: {body.id}")
+
         # Здесь будет вызов вашей модели
-        answer = 1  # Замените на реальный вызов модели
+        answer = await get_gpt_response(body.query)
+
         sources: List[HttpUrl] = [
             HttpUrl("https://itmo.ru/ru/"),
             HttpUrl("https://abit.itmo.ru/"),
         ]
 
+        reasoning = await get_gpt_full_response(body.query)
+
         response = PredictionResponse(
             id=body.id,
             answer=answer,
-            reasoning="Из информации на сайте",
+            reasoning= reasoning,
             sources=sources,
         )
         await logger.info(f"Successfully processed request {body.id}")
