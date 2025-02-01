@@ -28,7 +28,7 @@ def extract_first_number(text: str) -> int:
     else:
         return None
 
-api_key = 't1.9euelZqQysqZmZaZnJ6Uy82dy5fOl-3rnpWanJTGmp3Jzc-OmMyOypvMnYnl8_d7PAtD-e9LMnw6_t3z9ztrCEP570syfDr-zef1656VmsaYz5yZls6el43MyJyMyJmP7_zF656VmsaYz5yZls6el43MyJyMyJmP.AbQP6UTNyCUAsZZUGVb3TJqrqllUN-RFkzY2MRXRpDpojLSjxBxayOqnnXBA9TRe3MOerfIc4bDoNkUJAPEQCA'
+api_key = 't1.9euelZqbks-bys3JnZ7OlJ6ZnJqOjO3rnpWanJTGmp3Jzc-OmMyOypvMnYnl9PcgZghD-e8-GS3a3fT3YBQGQ_nvPhkt2s3n9euelZqQiouekJaUnpaUzpCRzI3Nje_8xeuelZqQiouekJaUnpaUzpCRzI3NjQ.qWVdVQPxdr7ZjxMOZHI-WM05BuNd_2FgsjDRHpW93U85ndo7UYvi5CQZNDARicK4Uvw83bOUPc2as5OwgFudAg'
 
 
 async def get_gpt_response(prompt: str) -> int:
@@ -176,3 +176,4 @@ async def predict(body: PredictionRequest):
     except Exception as e:
         await logger.error(f"Internal error processing request {body.id}: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal server error")
+

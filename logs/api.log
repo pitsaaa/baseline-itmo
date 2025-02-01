@@ -307,3 +307,99 @@ Request body: {
 Status: 200
 Response body: {"id":3,"answer":3,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге ARWU (Shanghai Ranking).","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
 Duration: 1.250s
+2025-02-01 00:07:53 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+
+2025-02-01 00:07:53 | INFO | Processing prediction request with id: 1
+2025-02-01 00:07:54 | ERROR | Validation error for request 1: 1 validation error for function-wrap[wrap_val()]
+  Input should be a valid URL, relative URL without a base [type=url_parsing, input_value='[www.itmo.ru]http://www.itmo.ru.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/url_parsing
+2025-02-01 00:07:54 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 400
+Response body: {"detail":"1 validation error for function-wrap[wrap_val()]\n  Input should be a valid URL, relative URL without a base [type=url_parsing, input_value='[www.itmo.ru]http://www.itmo.ru.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/url_parsing"}
+Duration: 1.721s
+2025-02-01 00:15:51 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+
+2025-02-01 00:15:51 | INFO | Processing prediction request with id: 1
+2025-02-01 00:15:54 | INFO | Successfully processed request 1
+2025-02-01 00:15:54 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["[www.itmo.ru]http://www.itmo.ru.","[www.university-moscow.ru]https://www.university-moscow.ru."]}
+Duration: 3.620s
+2025-02-01 00:19:20 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 1
+}
+
+2025-02-01 00:19:20 | INFO | Processing prediction request with id: 1
+2025-02-01 00:19:24 | INFO | Successfully processed request 1
+2025-02-01 00:19:24 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":3,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге ARWU (Shanghai Ranking).","sources":["Ranking]http://www.shanghairanking.com/","Rankings]https://www.timeshighereducation.com/world-university-rankings"]}
+Duration: 3.558s
+2025-02-01 00:26:26 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 1
+}
+
+2025-02-01 00:26:26 | INFO | Processing prediction request with id: 1
+2025-02-01 00:26:29 | ERROR | Validation error for request 1: 1 validation error for function-wrap[wrap_val()]
+  URL scheme should be 'http' or 'https' [type=url_scheme, input_value='Ranking:]http://www.shanghairanking.com//', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/url_scheme
+2025-02-01 00:26:29 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 400
+Response body: {"detail":"1 validation error for function-wrap[wrap_val()]\n  URL scheme should be 'http' or 'https' [type=url_scheme, input_value='Ranking:]http://www.shanghairanking.com//', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/url_scheme"}
+Duration: 3.057s
+2025-02-01 00:27:58 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 1
+}
+
+2025-02-01 00:27:58 | INFO | Processing prediction request with id: 1
+2025-02-01 00:28:01 | ERROR | Validation error for request 1: 1 validation error for function-wrap[wrap_val()]
+  Input should be a valid URL, relative URL without a base [type=url_parsing, input_value=']http://www.shanghairanking.com//', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/url_parsing
+2025-02-01 00:28:01 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 400
+Response body: {"detail":"1 validation error for function-wrap[wrap_val()]\n  Input should be a valid URL, relative URL without a base [type=url_parsing, input_value=']http://www.shanghairanking.com//', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/url_parsing"}
+Duration: 2.837s
+2025-02-01 00:29:13 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 1
+}
+
+2025-02-01 00:29:13 | INFO | Processing prediction request with id: 1
+2025-02-01 00:29:17 | INFO | Successfully processed request 1
+2025-02-01 00:29:17 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 200
+Response body: {"id":1,"answer":3,"reasoning":"ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге ARWU (Shanghai Ranking).","sources":["http://www.shanghairanking.com//","https://www.timeshighereducation.com/world-university-rankings/"]}
+Duration: 3.488s
+2025-02-01 07:27:43 | INFO | Incoming request: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 1
+}
+
+2025-02-01 07:27:43 | INFO | Processing prediction request with id: 1
+2025-02-01 07:27:44 | ERROR | Validation error for request 1: 2 validation errors for PredictionResponse
+answer
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Ошибка запроса: 401', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_parsing
+sources
+  Input should be a valid list [type=list_type, input_value='Ошибка запроса: 401', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-02-01 07:27:44 | INFO | Request completed: POST http://localhost:8080/api/request?query=%D0%92%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D1%83%D1%81%20%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0%20%D0%98%D0%A2%D0%9C%D0%9E?\n1.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0\n2.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3\n3.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3\n4.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&id=1
+Status: 400
+Response body: {"detail":"2 validation errors for PredictionResponse\nanswer\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Ошибка запроса: 401', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/int_parsing\nsources\n  Input should be a valid list [type=list_type, input_value='Ошибка запроса: 401', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/list_type"}
+Duration: 0.637s
